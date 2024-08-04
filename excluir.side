@@ -1,0 +1,45 @@
+{
+  "id": "0b62f27b-1b79-4e73-9b19-6b961c4e65c7",
+  "version": "2.0",
+  "name": "excluir",
+  "url": "http://10.0.0.103:8080",
+  "tests": [{
+    "id": "b9b9af4d-7583-42e2-ae8b-7aba502094bc",
+    "name": "excluir",
+    "commands": [{
+      "id": "3f6af48a-5a7b-4679-be31-5bb8886cc1d9",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e1b43fe-9894-4b68-a74d-dd52d7dfb634",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3185559-3811-4205-bf01-56aa222cfcf0",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) .mat-warn > .mdc-button__label",
+      "targets": [
+        ["css=tr:nth-child(3) .mat-warn > .mdc-button__label", "css:finder"],
+        ["xpath=//tr[3]/td[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ea12d783-7eae-40e8-9d11-b6131a0d2cbc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b9b9af4d-7583-42e2-ae8b-7aba502094bc"]
+  }],
+  "urls": ["http://10.0.0.103:8080/"],
+  "plugins": []
+}
